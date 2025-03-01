@@ -10,7 +10,7 @@ class Course:
     title: str
     instructor: str
     rating: int
-    published_date: int
+    published_date: int 
 
     def __init__(self, id: int, title: str, instructor: str, rating: int, published_date: int):
         self.id = id
